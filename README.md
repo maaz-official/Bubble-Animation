@@ -1,109 +1,70 @@
----
+# Getting Started with Create React App
 
-# React Bubble Animation
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-A simple React project demonstrating a floating bubble animation using Tailwind CSS and custom CSS. The animation effect is achieved through a combination of Tailwind for base styles and custom CSS for more complex styles.
+## Available Scripts
 
-## Table of Contents
+In the project directory, you can run:
 
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+### `npm start`
 
-## Features
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- Floating bubble animation using CSS keyframes.
-- Responsive and centered layout.
-- Uses Tailwind CSS for base styling.
-- Custom CSS for advanced styling and animations.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Installation
+### `npm test`
 
-Follow these steps to set up the project locally:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-1. **Clone the repository:**
+### `npm run build`
 
-   ```bash
-   git clone https://github.com/maaz-official/Bubble-Animation.git
-   cd Bubble-Animation
-   ```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-2. **Install dependencies:**
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-   Make sure you have [Node.js](https://nodejs.org/) installed. Then, run:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-   ```bash
-   npm install
-   ```
+### `npm run eject`
 
-3. **Set up Tailwind CSS:**
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-   If you haven't set up Tailwind CSS yet, follow the instructions [here](https://tailwindcss.com/docs/guides/create-react-app).
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-4. **Run the development server:**
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-   ```bash
-   npm start
-   ```
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-   Your application will be available at [http://localhost:3000](http://localhost:3000).
+## Learn More
 
-## Usage
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-The project includes a single React component, `Bubble`, which renders the animated bubble. Here's a quick guide on how to use it:
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-1. **Import and use the `Bubble` component in your `App.js`:**
+### Code Splitting
 
-   ```jsx
-   // App.js
-   import React from 'react';
-   import Bubble from './Bubble'; // Adjust the path if necessary
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-   const App = () => {
-     return (
-       <div className="App">
-         <Bubble />
-       </div>
-     );
-   };
+### Analyzing the Bundle Size
 
-   export default App;
-   ```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-2. **The `Bubble` component is styled using `Bubble.css`:**
+### Making a Progressive Web App
 
-   Ensure that the `Bubble.css` file is in the same directory as your `Bubble.js` component.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-## Contributing
+### Advanced Configuration
 
-Contributions are welcome! Please follow these steps to contribute:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-1. **Fork the repository.**
-2. **Create a new branch:**
+### Deployment
 
-   ```bash
-   git checkout -b feature-branch
-   ```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-3. **Make your changes and commit them:**
+### `npm run build` fails to minify
 
-   ```bash
-   git add .
-   git commit -m "Add new feature"
-   ```
-
-4. **Push to the branch:**
-
-   ```bash
-   git push origin feature-branch
-   ```
-
-5. **Create a pull request.**
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
